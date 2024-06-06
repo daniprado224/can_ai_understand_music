@@ -23,3 +23,5 @@ The results were shown in the following format:
 This dataset was intended to be used to study the user’s information and then make a prediction on a song they would like to listen to. To do this, a target variable “liked_or_not” was added to combined_user_data with a value of either 0 or 1. A score of 1 meaning the user liked the song if it was streamed for over 1000 ms and 0 if otherwise. Then, the combined user data was preprocessed to match the column names of the dataset downloaded.
 
 After data cleaning, the user data was then split into testing and validation groups. A Naive Bayes model was created to make an initial prediction, and it was trained on this dataset. However, when the model tried to make a prediction an error occurred as the Kaggle dataset and the user data seemed to be incompatible. Unfortunately, there was not enough time left in the semester for this error to be further revised, but in the future either the online dataset will be changed or necessary changes will be made to the dataset acquired.
+
+The project allowed me to understand how to manipulate data to make accurate predictions on consumer behavior. 
